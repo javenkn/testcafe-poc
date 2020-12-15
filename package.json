@@ -1,0 +1,23 @@
+{
+  "name": "testcafe-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/testcafe chrome tests/page.test.js -e -s path=screenshots/${TEST}.png,takeOnFails=true --selector-timeout 10000 --assertion-timeout 10000 --page-load-timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javenkn/testcafe-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javenkn/testcafe-poc/issues"
+  },
+  "homepage": "https://github.com/javenkn/testcafe-poc#readme",
+  "dependencies": {
+    "testcafe": "^1.9.4"
+  }
+}
